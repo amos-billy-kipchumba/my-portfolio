@@ -26,6 +26,7 @@ const About = () => {
                     <h4><FontAwesomeIcon icon={faAngleRight} /><span>Mobile app development</span></h4>
                     <h4><FontAwesomeIcon icon={faAngleRight} /><span>API development</span></h4>
                     <h4><FontAwesomeIcon icon={faAngleRight} /><span>Database design</span></h4>
+                    <h4><FontAwesomeIcon icon={faAngleRight} /><span>CI/CD</span></h4>
                     <h4><FontAwesomeIcon icon={faAngleRight} /><span>Graphic design</span></h4>
                 </div>
             </div>
