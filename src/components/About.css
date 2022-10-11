@@ -137,7 +137,7 @@
     }
     .about-right-div-left {
         width: 50%;
-        min-height: 50vh;
+        height: 50vh;
         border-bottom-left-radius: 50px;
         border-bottom-right-radius: 50px;
     }
@@ -166,7 +166,7 @@
     }
     .about-left-left {
         width: 200px;
-        min-height: 20vh;
+        height: 20vh;
         background-color: rgb(48, 46, 46);
         color: #fff;
         border-radius: 10px;
@@ -175,7 +175,7 @@
     }
     .about-left-right {
         width: 200px;
-        min-height: 20vh;
+        height: 20vh;
         background-color: #000;
         color: #fff;
         border-radius: 10px;
