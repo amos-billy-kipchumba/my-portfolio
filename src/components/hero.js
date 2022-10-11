@@ -11,8 +11,8 @@ const Hero = () => {
     <div className='hero-container'>
     <div className='hero-left'>
     <h1>Hi!👋</h1>
-    <h2>I am a <span>Web</span> Designer</h2>
-    <h4>"Focused and fast learner. Any opportunity to develop that comes my way. I am ready to dig deep and work it out"</h4>
+    <h2>"I am a <span>Software</span> Engineer</h2>
+    <h4>who is highly motivated and resourceful<br /> with interest in Machine learning, <br /> Full stack Development and <br /> System management"</h4>
     <a href={CV} alt="" download className='cv'>Download CV</a>
     <ul className='social-icons'>
     <li className='facebook'><a href='/' className='link-tagy' onClick={(e)=> {window.open("https://www.facebook.com/profile.php?id=100064855953886", "_blank"); e.preventDefault(); }}><FaFacebookF /></a></li>
