@@ -14,7 +14,6 @@ function App() {
   return (
     <BrowserRouter>
     <div className="App">
-    
      <Home id="hero"/>
      <About id="about"/>
      <Portfolio id="portfolio"/>
