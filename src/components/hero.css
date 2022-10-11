@@ -1,0 +1,500 @@
+.hero-container {
+    position: absolute;
+    width: 100%;
+    height: 90vh;
+    top: 10vh;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.hero-left {
+    flex: 1;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+}
+.hero-left >h1{
+    color: #fff;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.hero-left >h2{
+    color: #fff;
+    margin-left: 100px;
+}
+.hero-left >h4{
+    color: rgb(245, 238, 238);
+    margin-left: 100px;
+    margin-top: 10px;
+    margin-right: 40px;
+    font-size: 18px;
+}
+.hero-left .cv{
+    text-decoration: none;
+    color: rgb(239, 204, 250);
+    margin-left: 100px;
+    margin-top: 40px;
+    background: linear-gradient(to right, #000, transparent);
+    width: 200px;
+    height: 5vh;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border: 1px solid #848484;
+    border-radius: 10px;
+    filter: brightness(1);
+}
+.hero-left .cv:hover{
+    filter: brightness(2);
+    transform: translateX(2px);
+    transition: 0.3s ease-in-out;
+}
+
+.hero-left >h2 >span{
+    color: rgb(144, 144, 247);
+    animation: Cont 1s ease-in-out infinite;
+}
+
+.social-icons {
+    width: 100%;
+    color: #fff;
+    margin-top: 20px;
+    margin-left: 100px;
+    list-style-type: none;
+    display: flex;
+}
+.facebook {
+    -webkit-clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+width: 30px;
+height: 30px;
+background-color: rgb(144, 144, 247);
+display: flex;
+text-align: center;
+justify-content: center;
+align-items: center;
+}
+.facebook:hover {
+    -webkit-clip-path: circle(50% at 50% 50%);
+    clip-path: circle(50% at 50% 50%);
+font-size: 18px;
+cursor: pointer;
+transition: 0.5s ease-in-out;
+}
+.instagram {
+    -webkit-clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+width: 30px;
+height: 30px;
+background-color: #E4405F;
+display: flex;
+text-align: center;
+justify-content: center;
+align-items: center;
+margin-left: 5px;
+}
+.instagram:hover {
+    -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+font-size: 18px;
+cursor: pointer;
+transition: 0.5s ease-in-out;
+}
+.twitter {
+    -webkit-clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+width: 30px;
+height: 30px;
+background-color: #00acee;
+display: flex;
+text-align: center;
+justify-content: center;
+align-items: center;
+margin-left: 5px;
+}
+.twitter:hover {
+    -webkit-clip-path: polygon(0 0, 71% 0, 100% 100%, 31% 100%);
+    clip-path: polygon(0 0, 71% 0, 100% 100%, 31% 100%);
+    font-size: 18px;
+    cursor: pointer;
+transition: 0.5s;
+}
+.whatsapp {
+    -webkit-clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+width: 30px;
+height: 30px;
+background-color: rgb(144, 144, 247);
+display: flex;
+text-align: center;
+justify-content: center;
+align-items: center;
+margin-left: 5px;
+}
+.whatsapp:hover {
+    -webkit-clip-path: circle(50% at 50% 50%);
+    clip-path: circle(50% at 50% 50%);
+    font-size: 18px;
+    cursor: pointer;
+transition: 0.5s ease-in-out;
+}
+.hero-left > button {
+    width: 150px;
+    height: 5vh;
+    margin-top: 40px;
+    margin-left: 50%;
+    transform: translateX(-10%);
+    border-radius: 10px;
+    color: #fff;
+    background: linear-gradient(to right, #000, transparent);
+    border: 1px solid #848484;
+}
+.hire-thing {
+    text-decoration: none;
+    color: white;
+}
+.link-tagy {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-left > button:hover {
+    transition: 0.3s ease-in-out;
+    color: rgb(235, 229, 229);
+    cursor: pointer;
+}
+.hero-left > h6{
+    color: #fff;
+    font-size: 25px;
+    margin-top: 40px;
+    margin-left: 60%;
+    cursor: pointer;
+}
+.hero-right {
+    flex: 1;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding-right: 100px;
+}
+
+.hero-right-two {
+    width: 100%;
+    height: 60vh;
+    flex: 1;
+    background-color: #fff;
+    margin-top: 145px;
+    border-radius: 10px;
+    margin-left: 5px;
+}
+
+.hero-right-two >img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero-right-three {
+    width: 100%;
+    height: 60vh;
+    flex: 1;
+    background-color: rgb(20, 181, 255);
+    margin-top: 50px;
+    border-radius: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+  
+}
+.hero-right-three >img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.hero-right-two:hover{
+    cursor: pointer;
+    background-color: rgb(224, 218, 218);
+    transform: translateY(-5px);
+    transition: 0.3s ease-in-out;
+}
+.hero-right-three:hover{
+    cursor: pointer;
+    background-color: rgb(12, 112, 158);
+    transform: translateY(5px);
+    transition: 0.3s ease-in-out;
+}
+
+@media screen and (max-width: 960px) {
+    .hero-container {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 10vh;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        filter: brightness(1.0);
+    }
+    .hero-left {
+        width: 100%;
+        height: 100%;
+        background-color: transparent;
+        display: flex;
+        flex-direction: column;
+    }
+    .hero-left >h1{
+        color: #fff;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    .hero-left >h2{
+        color: #fff;
+        margin-left: 20px;
+    }
+    .hero-left >h4{
+        color: rgb(245, 238, 238);
+        margin-left: 20px;
+        margin-top: 10px;
+        margin-right: 10px;
+        font-size: 18px;
+    }
+    .hero-left .cv{
+        text-decoration: none;
+        color: rgb(239, 204, 250);
+        margin-left: 20px;
+        margin-top: 40px;
+        background: linear-gradient(to right, #000, transparent);
+        width: 200px;
+        height: 5vh;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        border: 1px solid #848484;
+        border-radius: 10px;
+        filter: brightness(1);
+    }
+    .hero-left .cv:hover{
+        filter: brightness(2);
+        transform: translateX(2px);
+        transition: 0.3s ease-in-out;
+    }
+    
+    .hero-left >h2 >span{
+        color: rgb(20, 181, 255);
+        animation: Cont 1s ease-in-out infinite;
+    }
+    
+    .social-icons {
+        width: 100%;
+        color: #fff;
+        margin-top: 20px;
+        margin-left: 100px;
+        list-style-type: none;
+        display: flex;
+    }
+    .facebook {
+        -webkit-clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+    width: 30px;
+    height: 30px;
+    background-color: rgb(144, 144, 247);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    }
+    .facebook:hover {
+        -webkit-clip-path: circle(50% at 50% 50%);
+        clip-path: circle(50% at 50% 50%);
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+    }
+    .instagram {
+        -webkit-clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+    width: 30px;
+    height: 30px;
+    background-color: #E4405F;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+    }
+    .instagram:hover {
+        -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+    }
+    .twitter {
+        -webkit-clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+    width: 30px;
+    height: 30px;
+    background-color: #00acee;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+    }
+    .twitter:hover {
+        -webkit-clip-path: polygon(0 0, 71% 0, 100% 100%, 31% 100%);
+        clip-path: polygon(0 0, 71% 0, 100% 100%, 31% 100%);
+        font-size: 18px;
+        cursor: pointer;
+    transition: 0.5s;
+    }
+    .whatsapp {
+        -webkit-clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+    width: 30px;
+    height: 30px;
+    background-color: rgb(144, 144, 247);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+    }
+    .whatsapp:hover {
+        -webkit-clip-path: circle(50% at 50% 50%);
+        clip-path: circle(50% at 50% 50%);
+        font-size: 18px;
+        cursor: pointer;
+    transition: 0.5s ease-in-out;
+    }
+    .hero-left > button {
+        width: 150px;
+        height: 5vh;
+        margin-top: 40px;
+        margin-left: 30%;
+        transform: translateX(-10%);
+        border-radius: 10px;
+        color: #fff;
+        background: linear-gradient(to right, #000, transparent);
+        border: 1px solid #848484;
+    }
+    .hero-left > button:hover {
+        transition: 0.3s ease-in-out;
+        color: rgb(235, 229, 229);
+        cursor: pointer;
+    }
+    .hero-left > h6{
+       display: none;
+    }
+    .hero-right {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        padding-right: 20px;
+        background: linear-gradient(to bottom, transparent, #0a191f);
+    }
+    
+    .hero-right-two {
+        width: 100%;
+        height: 30vh;
+        flex: 1;
+        background-color: #fff;
+        margin-top: 60px;
+        border-radius: 10px;
+        margin-left: 20px;
+    }
+    
+    .hero-right-two >img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    .hero-right-three {
+        width: 100%;
+        height: 30vh;
+        flex: 1;
+        background-color: rgb(20, 181, 255);
+        margin-top: 10px;
+        border-radius: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
+      
+    }
+    .hero-right-three >img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .hero-right-two:hover{
+        cursor: pointer;
+        background-color: rgb(224, 218, 218);
+        transform: translateY(-5px);
+        transition: 0.3s ease-in-out;
+    }
+    .hero-right-three:hover{
+        cursor: pointer;
+        background-color: rgb(12, 112, 158);
+        transform: translateY(5px);
+        transition: 0.3s ease-in-out;
+    }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 1024px) {
+    .hero-right {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        padding-right: 20px;
+    }
+    
+    .hero-right-two {
+        width: 100%;
+        height: 60vh;
+        flex: 1;
+        background-color: #fff;
+        margin-top: 60px;
+        border-radius: 10px;
+        margin-left: 20px;
+    }
+    
+    .hero-right-two >img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    .hero-right-three {
+        width: 100%;
+        height: 60vh;
+        flex: 1;
+        background-color: rgb(20, 181, 255);
+        margin-top: 10px;
+        border-radius: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
+      
+    }
+    .hero-right-three >img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .hero-right-two:hover{
+        cursor: pointer;
+        background-color: rgb(224, 218, 218);
+        transform: translateY(-5px);
+        transition: 0.3s ease-in-out;
+    }
+    .hero-right-three:hover{
+        cursor: pointer;
+        background-color: rgb(12, 112, 158);
+        transform: translateY(5px);
+        transition: 0.3s ease-in-out;
+    }
+}

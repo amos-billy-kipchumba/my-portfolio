@@ -1,0 +1,432 @@
+.portfolio-container {
+    width: 100%;
+    height: 80vh;
+    box-sizing: border-box;
+    background-color: #eee;
+}
+.portfolio-header {
+    width: 100%;
+    height: 5vh;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.portfolio-content {
+    width: 100%;
+    height: 70vh;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.portfolio-content-one {
+    min-width: 33.33%;
+    flex: 1;
+    background-color: rgb(245, 220, 226);
+    border-radius: 10px;
+    border: 2px solid rgb(201, 198, 198);
+    padding: 5px;
+    overflow: hidden;
+    position: relative;
+}
+.portfolio-content-one:hover{
+    padding: 0px;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+.portfolio-content-one >img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.portfolio-content-one >img:hover{
+    transition: 0.5s ease-in-out;
+    animation: blueElement ease-in-out;
+     animation-duration: 1s;
+     animation-delay: 0.5s;
+     transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.portfolio-links {
+    width: 100%;
+    z-index: 1;
+    background: linear-gradient(to top, #000, transparent);
+    height: 8vh;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.portfolio-links:hover {
+    background: linear-gradient(to top, #848484, #848484);
+}
+
+.portfolio-links >h5 >a{
+    text-decoration: none;
+    color: #eee;
+    font-size: 16px;
+}
+.portfolio-links >h5 >a:hover{
+    color: #fff;
+    font-size: 17px;
+    transition: 0.3s ease-in-out;
+}
+
+.portfolio-content-two {
+    min-width: 33.33%;
+    flex: 1;
+    background-color: rgb(48, 46, 46);
+    border-radius: 10px;
+    border: 2px solid rgb(201, 198, 198);
+    padding: 5px;
+    overflow: hidden;
+    position: relative;
+}
+.portfolio-content-two:hover{
+    padding: 0px;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+.portfolio-content-two >img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.portfolio-content-two >img:hover{
+    transition: 0.5s ease-in-out;
+    animation: blueElement ease-in-out;
+     animation-duration: 1s;
+     animation-delay: 0.5s;
+     transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.portfolio-content-three {
+    min-width: 33.33%;
+    flex: 1;
+    background-color: rgb(241, 224, 227);
+    border-radius: 10px;
+    border: 2px solid rgb(201, 198, 198);
+    padding: 5px;
+    overflow: hidden;
+    position: relative;
+}
+.portfolio-content-three:hover{
+    padding: 0px;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+.portfolio-content-three >img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.portfolio-content-three >img:hover{
+    transition: 0.5s ease-in-out;
+    animation: blueElement ease-in-out;
+     animation-duration: 1s;
+     animation-delay: 0.5s;
+     transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+@keyframes blueElement {
+    from {
+        transform: rotate(-1deg);
+    }
+    to {
+        transform: rotate(0deg);
+    }
+}
+.portfolio-content-four {
+    min-width: 33.33%;
+    flex: 1;
+    background-color: rgb(48, 46, 46);
+    border-radius: 10px;
+    border: 2px solid rgb(201, 198, 198);
+    overflow: hidden;
+    padding: 5px;
+    position: relative;
+}
+.portfolio-content-four:hover {
+    padding: 0;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+.portfolio-content-four >img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.portfolio-content-four >img:hover{
+    transition: 0.5s ease-in-out;
+    animation: blueElement ease-in-out;
+     animation-duration: 1s;
+     animation-delay: 0.5s;
+     transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.portfolio-content-five {
+    min-width: 33.33%;
+    flex: 1;
+    background-color: #e4dede;
+    border-radius: 10px;
+    border: 2px solid rgb(201, 198, 198);
+    overflow: hidden;
+    padding: 5px;
+    position: relative;
+}
+.portfolio-content-five:hover {
+    padding: 0;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+.portfolio-content-five >img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.portfolio-content-five >img:hover{
+    transition: 0.5s ease-in-out;
+    animation: blueElement ease-in-out;
+     animation-duration: 1s;
+     animation-delay: 0.5s;
+     transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.portfolio-content-six {
+    min-width: 33.33%;
+    flex: 1;
+    background-color: rgb(48, 46, 46);
+    border-radius: 10px;
+    border: 2px solid rgb(201, 198, 198);
+    padding: 5px;
+    overflow: hidden;
+    position: relative;
+}
+
+.portfolio-content-six:hover {
+    padding: 0;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+.portfolio-content-six >img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.portfolio-content-six >img:hover{
+    transition: 0.5s ease-in-out;
+    animation: blueElement ease-in-out;
+     animation-duration: 1s;
+     animation-delay: 0.5s;
+     transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+
+@media screen and (max-width: 960px) {
+    .portfolio-container {
+        width: 100%;
+        height: 100%;
+        box-sizing: border-box;
+        background-color: #eee;
+    }
+    .portfolio-header {
+        width: 100%;
+        height: 5vh;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .portfolio-content {
+        width: 100%;
+        height: 95vh;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .portfolio-content-one {
+        min-width: 50%;
+        flex: 1;
+        background-color: rgb(245, 220, 226);
+        border-radius: 10px;
+        border: 2px solid rgb(201, 198, 198);
+        padding: 5px;
+        overflow: hidden;
+    }
+    .portfolio-content-one:hover{
+        padding: 0px;
+        transition: 0.3s ease-in-out;
+    }
+    .portfolio-content-one >img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+    .portfolio-content-one >img:hover{
+        transition: 0.5s ease-in-out;
+        animation: blueElement ease-in-out;
+         animation-duration: 1s;
+         animation-delay: 0.5s;
+         transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+    }
+    .portfolio-content-two {
+        min-width: 50%;
+        flex: 1;
+        background-color: rgb(48, 46, 46);
+        border-radius: 10px;
+        border: 2px solid rgb(201, 198, 198);
+        padding: 5px;
+        overflow: hidden;
+    }
+    .portfolio-content-two:hover{
+        padding: 0px;
+        transition: 0.3s ease-in-out;
+    }
+    .portfolio-content-two >img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+    .portfolio-content-two >img:hover{
+        transition: 0.5s ease-in-out;
+        animation: blueElement ease-in-out;
+         animation-duration: 1s;
+         animation-delay: 0.5s;
+         transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+    }
+    .portfolio-content-three {
+        min-width: 50%;
+        flex: 1;
+        background-color: rgb(241, 224, 227);
+        border-radius: 10px;
+        border: 2px solid rgb(201, 198, 198);
+        padding: 5px;
+        overflow: hidden;
+    }
+    .portfolio-content-three:hover{
+        padding: 0px;
+        transition: 0.3s ease-in-out;
+    }
+    .portfolio-content-three >img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+    .portfolio-content-three >img:hover{
+        transition: 0.5s ease-in-out;
+        animation: blueElement ease-in-out;
+         animation-duration: 1s;
+         animation-delay: 0.5s;
+         transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+    }
+    
+    @keyframes blueElement {
+        from {
+            transform: rotate(-1deg);
+        }
+        to {
+            transform: rotate(0deg);
+        }
+    }
+    .portfolio-content-four {
+        min-width: 50%;
+        flex: 1;
+        background-color: rgb(48, 46, 46);
+        border-radius: 10px;
+        border: 2px solid rgb(201, 198, 198);
+        overflow: hidden;
+        padding: 5px;
+    }
+    .portfolio-content-four:hover {
+        padding: 0;
+        transition: 0.3s ease-in-out;
+    }
+    .portfolio-content-four >img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+    .portfolio-content-four >img:hover{
+        transition: 0.5s ease-in-out;
+        animation: blueElement ease-in-out;
+         animation-duration: 1s;
+         animation-delay: 0.5s;
+         transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+    }
+    .portfolio-content-five {
+        min-width: 50%;
+        flex: 1;
+        background-color: #e4dede;
+        border-radius: 10px;
+        border: 2px solid rgb(201, 198, 198);
+        overflow: hidden;
+        padding: 5px;
+    }
+    .portfolio-content-five:hover {
+        padding: 0;
+        transition: 0.3s ease-in-out;
+    }
+    .portfolio-content-five >img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+    .portfolio-content-five >img:hover{
+        transition: 0.5s ease-in-out;
+        animation: blueElement ease-in-out;
+         animation-duration: 1s;
+         animation-delay: 0.5s;
+         transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+    }
+    .portfolio-content-six {
+        min-width: 50%;
+        flex: 1;
+        background-color: rgb(48, 46, 46);
+        border-radius: 10px;
+        border: 2px solid rgb(201, 198, 198);
+        padding: 5px;
+        overflow: hidden;
+    }
+    
+    .portfolio-content-six:hover {
+        padding: 0;
+        transition: 0.3s ease-in-out;
+    }
+    .portfolio-content-six >img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+    .portfolio-content-six >img:hover{
+        transition: 0.5s ease-in-out;
+        animation: blueElement ease-in-out;
+         animation-duration: 1s;
+         animation-delay: 0.5s;
+         transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+    }
+    .portfolio-links >h5 >a{
+        text-decoration: none;
+        color: #eee;
+        font-size: 12px;
+    }
+    .portfolio-links >h5 >a:hover{
+        color: #fff;
+        font-size: 13px;
+        transition: 0.3s ease-in-out;
+    }
+}
