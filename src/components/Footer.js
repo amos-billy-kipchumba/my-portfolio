@@ -28,7 +28,7 @@ const Footer = () => {
           <h2>Get in touch</h2>
           <h3><span><FaPhone /></span><a href="+254743630811">+254743630811</a></h3>
           <h3><span><FaEnvelope /></span><a href = "mailto: amosbillykipchumba@gmail.com">amosbillykipchumba@gmail.com</a></h3>
-          <h3><span><FaLocationArrow /></span>Kilifi town, Kenya</h3>
+          <h3><span><FaLocationArrow /></span>Nairobi, Kenya</h3>
           <div className='contact-send-message'>
             <div className='contact-send-message-one'>
               <span><FaEnvelope /></span>
