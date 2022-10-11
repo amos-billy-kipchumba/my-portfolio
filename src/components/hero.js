@@ -3,7 +3,7 @@ import './hero.css'
 import {FaFacebookF, FaTwitter, FaInstagram, FaWhatsapp, FaMouse} from 'react-icons/fa'
 import ProfileTwo from './images/profile-two.png'
 import ProfileThree from './images/profile-three.png'
-import CV from './cv/Amos Billy Kipchumba CV-converted.pdf'
+import CV from './cv/Amos Billy CV.pdf'
 import { HashLink as Link } from 'react-router-hash-link'
 const Hero = () => {
   return (
