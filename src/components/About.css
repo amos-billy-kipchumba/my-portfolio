@@ -150,10 +150,11 @@
     }
     .about-right-div-right {
         width: 100%;
-        height: 30vh;
+        min-height: 30vh;
         border-radius: 10px;
         display: flex;
         flex-direction: column;
+        margin: 10px auto;
     }
     .about-right-div-right > h3{
         margin-left: 10px;
