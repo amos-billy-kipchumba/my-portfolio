@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} !^amosbilly.co.ke$
+RewriteRule ^(.*)$ http://amosbilly.co.ke/$1 [R=301,L]
