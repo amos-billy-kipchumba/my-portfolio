@@ -21,6 +21,7 @@ const About = () => {
                     <img src={ProfileOne} alt="" />
                 </div>
                 <div className='about-right-div-right'>
+			<h1 style={{display: 'none'}}>amos billy - React Web developer</h1>
                     <h3>My Skills are:</h3>
                     <h4><FontAwesomeIcon icon={faAngleRight} /><span>Web Development</span></h4>
                     <h4><FontAwesomeIcon icon={faAngleRight} /><span>Mobile app development</span></h4>
